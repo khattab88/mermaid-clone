@@ -1,5 +1,6 @@
 /*
-    $theme-color: ;
+    1vw = 15.36px;
+    $main-color: #8220a2;
 */
 
 /*--------------------------------------------------*/
@@ -29,4 +30,233 @@ body {
     display: block;
     height: 0;
     visibility: hidden;
+}
+
+
+/*--------------------------------------------------*/
+/* Reusable Elements */
+/*--------------------------------------------------*/
+.row {
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+section {
+    margin: 80 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/*----------------- Headings-------------------- */
+h1,
+h2,
+h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300%;
+    letter-spacing: 0.2vw;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+h3 {
+    font-size: 100%;
+}
+
+/*----------------- Buttons-------------------- */
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 0.75vw 2vw; 
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 10vw;
+    transition: background-color 0.3s, color 0.3s, color 0.3s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #8220a2;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #fff;
+    color: #8220a2;
+    border: 2px solid #fff;
+}
+
+/*--------------------------------------------------*/
+/* Header */
+/*--------------------------------------------------*/
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(http://www.getamermaid.com/media/image/slider/slider_011.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    margin-left: 2vw;
+    float: left;
+}
+
+.main-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    text-align: center;
+}
+
+/* navigation directions */
+
+.nav-direction {
+    color: #fff;
+    width: 3vw;
+    height: 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 40%;
+}
+
+.nav-direction:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.3); 
+}
+
+.nav-direction-left {
+}
+
+.nav-direction-right {
+    right: 0;
+}
+
+.nav-direction i {
+    font-size: 200%;
+}
+
+/* main navigation */
+.main-nav {
+    list-style: none;
+    float: left;
+    margin-top: 2.5vw;
+    margin-left: 18vw;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 2.5vw;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 85%;
+    font-weight: 500;
+    padding-bottom: 0.3vw;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #fff;
+}
+
+/* social navigation */
+.social-nav {
+    float: right;
+    list-style: none;
+    margin-top: 2.7vw;
+    margin-right: 5vw;
+}
+
+.social-nav li {
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+.social-nav li a:link,
+.social-nav li a:visited {
+    color: #fff;
+    font-size: 110%;
+    transition: color 0.2s;
+}
+
+.social-nav li a:hover,
+.social-nav li a:active {
+    color: #ccc;
+}
+
+
+
+/*--------------------------------------------------*/
+/* Customers */
+/*--------------------------------------------------*/
+.section-customers {
+    background-color: #f3f3f3;
+    height: 10vw;
+    padding: 2vw;
+}
+
+.section-customers h3 {
+    color: #000;
+    font-weight: 500;
+}
+
+.customers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.customers img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    max-height: 5vw;
+}
+
+
+/*--------------------------------------------------*/
+/* Features */
+/*--------------------------------------------------*/
+.section-features {
+    height: 10vw;
+}
+
+.section-features h3 {
+    color: #000;
 }
