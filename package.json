@@ -1,0 +1,23 @@
+{
+  "name": "mermaid-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public/ --port=9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khattab88/mermaid-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khattab88/mermaid-clone/issues"
+  },
+  "homepage": "https://github.com/khattab88/mermaid-clone#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
