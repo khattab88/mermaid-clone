@@ -93,7 +93,7 @@ input[type=submit] {
     font-weight: 400;
     text-decoration: none;
     border-radius: 10vw;
-    transition: background-color 0.3s, color 0.3s, color 0.3s;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
 
 .btn-full:link,
@@ -337,5 +337,25 @@ header {
 .section-pricing {
     margin-top: 35vw;
     background-color: #f3f3f3;
-    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-pricing h3 {
+    padding-right: 3vw;
+    font-size: 120%;
+}
+
+.section-pricing a:link,
+.section-pricing a:visited {
+    color: #8220a2 !important;
+    border-color: #8220a2 !important;
+}
+
+.section-pricing a:hover,
+.section-pricing a:active {
+    color: #fff !important;
+    background-color: #8220a2 !important;
 }
