@@ -134,6 +134,31 @@ input[type=submit] {
     font-size: 100%;
 }
 
+/* Social Icons */
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-linkedin,
+.ion-social-instagram {
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-linkedin:hover {
+    color: #0077b5;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
+
 /*--------------------------------------------------*/
 /* Header */
 /*--------------------------------------------------*/
@@ -388,9 +413,10 @@ header {
 /*--------------------------------------------------*/
 footer {
     margin-top: 19vw;
+    margin-bottom: 0;
     background-color: #222;
     padding-top: 4vw;
-    min-height: 30vw;
+    height: 35vw;
 }
 
 .footer-box {
@@ -478,4 +504,44 @@ footer {
 .newsletter a:hover,
 .newsletter a:active {
     background-color: #8220a2;
+}
+
+
+.footer-bottom {
+    height: 10vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-bottom .social-nav {
+    float: none;
+}
+
+.copyright {
+    font-size: 80%;
+}
+
+.top {
+    position: fixed;
+    right: 3vw;
+    bottom: 3vw;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.top:hover {
+    background-color: #8220a2;
+}
+
+#go-to-top {
+    text-decoration: none;
+    font-size: 200%;
+    color: #fff;
 }
