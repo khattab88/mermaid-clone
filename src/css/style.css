@@ -42,7 +42,7 @@ body {
 }
 
 section {
-    margin: 5vw 0;
+    margin: 3vw 0;
     padding: 2vw;
 }
 
@@ -358,4 +358,37 @@ header {
 .section-pricing a:active {
     color: #fff !important;
     background-color: #8220a2 !important;
+}
+
+
+/*--------------------------------------------------*/
+/* Info */
+/*--------------------------------------------------*/
+.section-info {
+}
+
+.info {
+    padding-top: 1vw;
+}
+
+.info h3 {
+    text-align: left;
+    margin-bottom: 1.5vw;
+}
+
+.info p {
+    font-size: 80%;
+    padding-bottom: 0.5vw;
+    font-weight: 400;
+}
+
+
+/*--------------------------------------------------*/
+/* Footer */
+/*--------------------------------------------------*/
+footer {
+    margin-top: 19vw;
+    background-color: #222;
+    min-height: 50vw;
+
 }
