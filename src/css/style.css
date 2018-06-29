@@ -389,6 +389,93 @@ header {
 footer {
     margin-top: 19vw;
     background-color: #222;
-    min-height: 50vw;
+    padding-top: 4vw;
+    min-height: 30vw;
+}
 
+.footer-box {
+    min-height: 15vw;
+}
+
+.footer-box h3 {
+    color: #fff;
+    font-size: 90%;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 2vw;
+}
+
+.footer-box p {
+    color: #aaa;
+    font-size: 80%;
+    font-weight: 400;
+    line-height: 2vw;
+}
+
+.footer-box a:link,
+.footer-box a:visited {
+    color: #aaa;
+    font-size: 80%;
+    font-weight: 400;
+    line-height: 2vw;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border 0.2s;
+}
+
+.footer-box a:hover,
+.footer-box a:active {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-box img {
+    display: inline-block;
+    max-width: 12vw;
+    height: auto;
+    margin-top: 2vw;
+}
+
+
+.separator {
+    width: 80vw;
+    border-bottom: 1px solid #47484A;
+    margin: 20vw auto 0 auto;
+}
+
+/* newsletter */
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    /* padding: 1vw; */
+}
+
+.newsletter input[type=text] {
+    color: #fff;
+    text-align: left;
+    padding-left: 1vw;
+    font-size: 80%;
+    margin-bottom: 2vw;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #47484A;
+    width: 16vw;
+    height: 6vw;
+    overflow: auto;
+}
+
+.newsletter a:link,
+.newsletter a:visited {
+    text-align: center;
+    color: #fff;
+    border: none;
+    border: 2px solid #47484A;
+    margin-right: 2vw;
+    transition: background-color 0.2s;
+}
+
+.newsletter a:hover,
+.newsletter a:active {
+    background-color: #8220a2;
 }
